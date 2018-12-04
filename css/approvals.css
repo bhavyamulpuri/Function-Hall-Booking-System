@@ -1,0 +1,47 @@
+*{margin:0;padding:0;}
+body{font:12px/1.6 arial;background:url("../images/bgimage.jpg");}
+
+#page{width:100%;}
+
+#header{position: relative;}
+#logo img{height:90px; width:300px; float:left; position: relative; z-index:1;}
+.clear{clear:both;}
+/* Admin Page Navigation Bar Start */
+#navbar{ z-index:1; border-radius:2px; float:left;}
+#navbar ul li{list-style-type:none;background:#5271FF; height:40px;float:right; }
+#navbar ul li a{text-decoration:none;color:#fff;padding:10px 91px;font-weight:bold;
+font-size: 15px; display:block;}
+#navbar ul .active a{background:#35c8fe;}
+#navbar ul li a:hover{background:#5FAADD;}
+/* Admin Page Navigation Bar End */
+.clear{clear:both;}
+#form fieldset{width:1000px;}
+#form legend{font-weight:bold; font-size:25px; color:#5271FF;}
+#form p input{font-weight:bold; font-size:25px;height:35px; width:400px; padding:3px;}
+#form1 fieldset{width:900px;}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width:800px;
+}
+#form1 tr th{width:400px;}
+#form1 tr td{width:400px;}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+#form1 b input{font-weight:bold; width:120px; height:25px;margin-bottom:10px;}
+#form table tr th img{height:30px; width:40px;}
+#form table tr th{font-size:18px;}
+.clear{clear:both;}
+
+/*
+#form{text-align:center; width:800px;margin-left:auto; margin-right:auto; margin-top:100px; margin-bottom:10px;}
+#form legend{font-weight:bold; font-size:25px;}
+#form p input{font-weight:bold; font-size:25px;height:30px; width:400px;}
+
+#form1{width:700px; margin-left:auto; margin-right:auto; margin-top:15px; margin-bottom:15px;}
+#form1 a{font-size:20px; font-weight:bold}
+#form1 input{width:300px; height:20px;}
+#form1 b input{width:120px; height:25px;margin-bottom:10px;}

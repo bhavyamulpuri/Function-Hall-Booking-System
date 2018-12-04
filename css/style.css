@@ -1,0 +1,147 @@
+*{margin:0;padding:0;}
+body{font:12px/1.6 arial;}
+#page{width:100%;}
+#bg{}
+/* Header Start */
+#header{position: relative;}
+#logo img{height:90px; width:300px; float:left; position: relative; z-index:1;}
+.search-container {float: left; margin-left:170px; margin-top:25px; border: 1px solid #5271FF;}
+/*.search-container input[type=text] */
+.search-container form
+{	
+  font-size: 17px;
+}
+.search-container select
+{
+	height:36px;
+	font-size:20px;
+	color:#5271FF;
+}  
+
+.search-container button {
+  float: right;
+  padding: 6px 10px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background: #5271FF;
+}
+
+.search-container button:hover {
+  background: #ccc;
+  color: #5271FF;
+}
+
+
+#log{float:right;padding:10px; margin-top:20px;margin-right:20px;font-size:20px;}
+#log a{color:#000000; text-decoration:none;margin-right:10px;padding:5px;}
+#log a:hover{color:#ffffff; background:#000000;}
+.overlay {
+ position: fixed;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ background: rgba(0, 0, 0, 0.7);
+ transition: opacity 500ms;
+ visibility: hidden;
+ opacity: 0;
+}
+.overlay:target {
+ visibility: visible;
+ opacity: 1;
+}
+
+.popup {
+ margin: 70px auto;
+ padding: 20px;
+ background: #fff;
+ border-radius: 5px;
+ width: 30%;
+ position: relative;
+ transition: all 5s ease-in-out;
+}
+.popup .close {
+ position: absolute;
+ top: 20px;
+ right: 30px;
+ transition: all 200ms;
+ font-size: 30px;
+ font-weight: bold;
+ text-decoration: none;
+ color: #333;
+}
+.clear{clear:both;}
+/* Header End */
+
+/* Carousel Start */
+#slider{position:relative; width:100%;}
+/*Carousel End */
+.clear{clear:both;}
+
+.logform button{width:200px; border-radius:10px;}
+.regform button{width:200px; border-radius:10px;}
+
+/* Gallary Start */
+#gallery {margin-left:50px; margin-top:25px;}
+.galline img{height:200px;width:300px;margin-top:10px; margin-left:7px;transition: transform .2s;}
+.galline :hover{
+	-ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+}
+/* Gallary End */
+
+/* Team Start */
+#content{}
+.container_k1{margin-left:330px;}
+.container_k1 img{height:150px;width:150px; border-radius:100px;}
+.clear{clear:both;}
+.container_k2 img{height:150px;width:150px; border-radius:100px;}
+.clear{clear:both;}
+/* Team End */
+
+/* Contact & Map Start */
+#contact{margin-top:25px;}
+#contform{float:left;margin-left:75px;}
+#contform input{width:300px;}
+#contform a input{width:200px; background:#5271FF; color:#fff; font-size:15px; font-weight:bold; border-radius:10px; border:1px solid #5271FF; margin-top:10px; }
+#contform label{margin-top:15px; font-size:20px;}
+#vline img{float:left; width:10px; height:420px; margin-left:50px;margin-top:50px;}
+#navigation{float:left;margin-left:50px;}
+.clear{clear:both;}
+/* Contact & Map End */
+
+/* Footer Start */
+#footer{position: relative;}
+#img{margin-top:20px;}
+#social{margin-right:78px;}
+#social ul li{float:right; padding:10px;  list-style-type:none;}
+#social ul li img{ height:30px; width:30px;}
+.img {padding:0 0 0 10px; margin-right:500px;}
+.copy {margin-left:630px; margin-top:25px;}
+/* Footer End */
+
+/* Login Form Start */
+.logform input, select{width:350px; height:30px; font-size:18px;margin-left:10px}
+.logform label{font-size:20px; color:#5271FF;}
+.logform button{width:200px; height:40px; font-weight:bold; font-size:15px; color:#fff; background:#5271FF;}
+.clear{clear:both;}
+/* Login Form End */
+
+/* Registration Form Start */
+.regform input, select{width:300px; height:30px; font-size:18px;}
+.regform label{font-size:20px; color:#5271FF;}
+.regform button{width:200px; height:40px; font-weight:bold; font-size:15px; color:#fff; background:#5271FF;}
+/* Registration Form End */
+
+/* Admin Page Navigation Bar Start *
+#navbar{ z-index:1; border-radius:2px; float:left;}
+#navbar ul li{list-style-type:none;background:#5271FF; height:40px;float:right; }
+#navbar ul li a{text-decoration:none;color:#fff;padding:10px 92px;font-weight:bold;
+font-size: 15px; display:block;}
+#navbar ul .active a{background:#35c8fe;}
+#navbar ul li a:hover{background:#5FAADD;}
+/* Admin Page Navigation Bar End */
+

@@ -1,0 +1,37 @@
+*{margin:0;padding:0;}
+body{font:12px/1.6 arial;}
+/*.search-container input[type=text] */
+#page{}
+#bg{}
+/* Header Start */
+#header{position: relative;}
+#logo img{height:90px; width:300px; float:left; position: relative; z-index:1;}
+
+#home{float:right; margin-top:25px; margin-right:100px; font-size:20px; background:#5271FF; border-radius:10px; padding:0px 10px 0px 10px; }
+#home img{height:25px; width:25px; margin-top:5px;}
+#home span, a{color:#fff; text-decoration:none;}
+#home img a span :hover{background:#5FAADD;}
+.clear{clear:both;}
+/* Header End */
+
+#regform{margin-left:275px; width:800px;}
+#regform fieldset{border: 2px solid #5271FF; padding:10px;}
+#regform fieldset legend{font-size:25px; font-weight:bold; color:#5271FF; text-align:center; }
+#regform label{font-size:20px;}
+#regform input[type="text"], input[type="email"],input[type="password"],input[type="number"],select{width:300px;height:25px; color:#5271FF; font-size:18px;}
+#regform input[type="radio"]{width:20px; height:20px; margin-top:5px; color:#5271FF;}
+#regform input[type="submit"]{border: 1px solid #5271FF; height:30px; width:200px; font-size:15px; font-weight:bold; color:#fff; background:#5271FF; border-radius:10px;}
+#regform label img{height:30px; width:40px;}
+
+
+
+.clear{clear:both;}
+/* Footer Start */
+#footer{position: relative;}
+#img{margin-top:20px;}
+#social{margin-right:78px;}
+#social ul li{float:right; padding:10px;  list-style-type:none;}
+#social ul li img{ height:30px; width:30px;}
+.img {padding:0 0 0 10px; margin-right:500px;}
+.copy {margin-left:630px; margin-top:25px;}
+/* Footer End */
